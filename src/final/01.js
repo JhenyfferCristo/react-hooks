@@ -8,6 +8,7 @@ function Greeting() {
   function handleChange(event) {
     setName(event.target.value)
   }
+
   return (
     <div>
       <form>
@@ -22,5 +23,4 @@ function Greeting() {
 function App() {
   return <Greeting />
 }
-
 export default App
